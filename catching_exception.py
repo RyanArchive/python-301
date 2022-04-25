@@ -4,12 +4,12 @@ divisor = input("Enter divisor: ")
 try:
     dividend = int(dividend)
     divisor = int(divisor)
-    total = dividend / divisor
+    quotient = dividend / divisor
 except ValueError:
-    total = "Invalid number/s"
+    quotient = "Invalid number/s"
 except ZeroDivisionError:
-    total = "Cannot divide by zero"
+    quotient = "Cannot divide by zero"
 except Exception:
-    total = "Unknown"
+    quotient = "Unknown"
 
-print(f"Total: {total}")
+print(f"Total: {quotient}")
