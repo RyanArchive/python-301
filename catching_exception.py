@@ -12,4 +12,4 @@ except ZeroDivisionError:
 except Exception:
     quotient = "Unknown"
 
-print(f"Total: {quotient}")
+print(f"Quotient: {quotient}")
